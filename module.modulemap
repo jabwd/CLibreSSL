@@ -1,5 +1,6 @@
 module CLibreSSL [system] {
     header "shim.h"
+    link "ssl"
     link "crypto"
     link "tls"
     export *
